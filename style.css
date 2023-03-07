@@ -11,12 +11,7 @@
     
    
 }
-:root{
-    --darkblue:#256196;
-    --lightblue:#3D93E0;
-    --black:#000000;
-    --white:#ffffff;
-}
+
 section{
     
     padding-top: 70px;  
@@ -26,180 +21,236 @@ section{
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
-    background-size: 450px 590.3px;
- }
+    background-size: 32% 85%;
+}
 body{
     background-image: url(/images/Polygon\ 1.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 110px;
+    background-position-x: 150px;
     background-attachment: fixed;
 }
 header{
     position: fixed;
     width: 100%; 
-    
-    top: 0;
-    right: 0;z-index: 1000;  
+    right: 0;
+    z-index: 1000;  
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10.92px 50.87px;
+    padding: 11px 51px;
     
    
 }
 .logo{
-    margin-top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.logoimg{
-    width: 30.08px;
-    height:30.08px ;
+.logo img{
+    width: 49px;
+    height:49px ;
    
 } 
 
-.logo span{
-    font-family: 'Noto Sans';
-    font-style: normal;
+.logo span{  
    font-weight:600;
-   font-size:1.7rem;
-   line-height: 6px;
-   background: linear-gradient(180deg, #3E6D9C
-   29.69%, #001253 40.81%);
+   font-size:2.2rem; 
+   background: linear-gradient(180deg, #3E6D9C 39.06%, #001253 86.46%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    background-clip: text;
-   padding-left: 5px;
+  
    
   
 }
 .navbar{
     padding-top: 20px;
     position: relative;
-    display: flex;
-   
+    display: flex;  
     height: 90px;
-    margin-left:250px ;
+    margin-right: -18%;
  
     
 }
-.navbar a{
+.hm {
    
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    font-weight: 600;
-    line-height: 7px;
+    padding: 10px 15px;
+    text-decoration: underline 0.125em;
+    font-weight: 700;
+    font-size: 1.563em;
+    color: #376293;
+}
+.cu,.app{
+   
+    font-size: 1.4rem;
+    padding: 10px 15px;
+    font-weight: 600;  
     color: #000000;
 }
 .navbar a:hover{
-    color: var(--darkblue);
+    font-weight: 700;
+    font-size: 1.563em;
+    color: #376293;
+    text-decoration: underline 0.125em ;
 }
-
 .home{
    
     width: 100%;
     min-height: 100vh;
-    display: flex; 
-    align-items: center;
+    
     
 }
-
-.btns img{
-    width: 15px;
-    height: 15px;
+.text{
+    margin-top: 48px;
 }
 .text h1 {
-    font-size: 2.7rem;
+    font-size: 2.7em;
     font-weight: 600;
-    background: linear-gradient(180deg, #3E6D9C 58.12%, #001253 99.79%);
-    -webkit-background-clip: text;
+    background: linear-gradient(180deg, #3E6D9C 58.12%, #001253 99.79%);    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 .text p{
-    font-size: 0.938;
-    margin: 1rem 0 1.8rem;
+    font-size: 0.938rem;
+    margin: 16px 13px;
     color: #899096;
 }
-.btns button a{
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 600;
-    
-}
-
-
-.btns button{
-    margin-bottom: 60px;
-    margin-top: 20px;
-    padding: 10px 14px;     
-    background: #376293;   
-    border-radius: 0.5rem;
-    border-color: #376293; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    align-items: center;  
-    
-}
-.btns button:hover{
-    background: #507096;
-}
-.btns{
-    width: 450px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.cads{
-   width: 650px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-}
-.cads span{
-    font-size: 14px;
-    font-weight: 600;
-}
-.cads p{
-    color: #899096;
-    font-size: 0.938;
-}
-.cads button{
-    background: rgba(181, 202, 227, 0.27);
-    padding: 10px 14px;     
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 0.5rem;
-    border-color:  rgba(181, 202, 227, 0.27);
+.btns img{
+width: 25px;
+height25px;
 }
 .cads img{
     width: 20px;
     height: 20px;
-    margin-right: 5px;
 }
-.bar{
-    width: 600px;
-    padding: 10px;
-    background: #376293;
-    margin-top: 80px;
+.buttn{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-right: 380px;
+    flex-direction: row;
+    width: 71%;
+}
+.btns{
+    margin-bottom: 30px; 
+    margin-left: -30px;
+    display: flex;
+    
+}
+.btns button{
+    width: 176px;
+    height: 50px;
+    margin-right: 0.625em;
+    border-style: none;
+    background: #376293;
+    border-radius:10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.btns a{
+    font-weight: 700;
+    font-size: 0.938em;
+    line-height: 0.938em;
+    text-align: center;   
+    color: #FFFFFF;
+    margin-right: 12px;  
+}
+.cads{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cads button{
+  border-style: none;  
+  width: 200px;
+  height: 60px;
+  background: rgba(181, 202, 227, 0.27);
+  backdrop-filter: blur(56.7844px);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  margin-bottom: 32px;
+}
+.cads .btn2{
+    margin-right: 110px;
+}
+.btn1{
+    margin-left: 30px;
+}
+.cads span{
+    font-weight: 700;
+    font-size: 0.813rem;
+    line-height: 1.125rem;
+    color: #000000;
+}
+.cads p{
+    font-weight: 500;
+font-size: 0.75rem;
+color: rgba(0, 0, 0, 0.25);
+}
+.bar{
+    height: 80px;
+    width: 600px;
+    padding: 10px;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
     justify-content: space-around;
-    box-shadow: 5px 5px 10px gray;
+    background: linear-gradient(0deg, #376293, #376293), linear-gradient(266.53deg, #569DF3 0.08%, #0063DD 99.99%);
+    box-shadow: 2.36361px 2.36361px 20.0712px 2.58983px rgba(0, 0, 0, 0.25);   
 }
 .bar span{
-    font-size: 19px;
-    font-weight: 600;
-    color: #ffffff;
+    font-weight: 700;
+    font-size:2rem;
+    text-align: center;
+    color: #FFFFFF;
 }
 .bar p{
-    color: #d0d2d3;
-    font-size: 0.938;  
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 27px;
+    text-align: center;  
+    color: #FFFFFF;  
 }
 hr{
-    height: 30px;
+    height: 40px;
+}
+@media (min-width:1450px) {
+    .navbar{
+        margin-left: 10%;
+    }
+    .buttn{
+        width: 68%;
+     }
+    
+}
+@media (min-height:750px) {
+    body{
+        background-position-x: 170px;
+    }
+    .text{
+        margin-top: 90px;
+    }
+    .text h1{
+        font-size: 3.2rem;
+    }
+    .text p{
+        margin: 25px 13px;
+    }
+    .bar{
+        margin-top: 70px;
+    }
+    .btns{
+        margin-top: 20px;
+    }
+
+    
 }
